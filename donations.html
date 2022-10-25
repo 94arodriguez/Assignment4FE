@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="fonts">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Donations</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body class="background">
+    <div id="createlayout">
+      <div id="cone">
+        <header id="header">
+          <a href="index.html" class="button">Main Menu</a>
+          <a href="post.html" class="button">Newest Post</a>
+          <a href="posts.html" class="button">All Posts</a>
+          <a href="create.html" class="button">Create Post</a>
+          <a href="membership.html" class="button">Memberships</a>
+          <a href="donations.html" class="button">Donate</a>
+          <a href="newsletter.html" class="button">Newsletter</a>
+          <br />
+          <br />
+        </header>
+      </div>
+      <div id="ctwo">
+        <div class="elementcenter">
+          <h1 id="yellow">Make a donation to support the blog!</h1>
+        </div>
+        <div class="formcenter">
+          <div class="form">
+            <form
+              action="https://www.w3schools.com/action_page.php"
+              method="get"
+            >
+              <fieldset>
+                <legend>Donate</legend>
+                <label for="fname">First name:</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  class="box2"
+                /><br /><br />
+                <input
+                  type="hidden"
+                  id="custId"
+                  name="custId"
+                  value="1845"
+                  class="box2"
+                />
+                <label for="lname">Last name:</label>
+                <input
+                  type="text"
+                  id="lname"
+                  name="lname"
+                  class="box2"
+                /><br /><br />
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="box2"
+                /><br /><br />
+                <label for="tel">Phone Number:</label>
+                <input
+                  type="tel"
+                  name="tel"
+                  id="tel"
+                  class="box2"
+                /><br /><br />
+                <label for="amount">Donation Amount:</label>
+                <input type="number" class="box2" /><br /><br />
+                <label type="select">Card Type:</label>
+                <select id="select" class="box2">
+                  <option value="blank"></option>
+                  <option value="yes">Visa</option>
+                  <option value="No">Master Card</option>
+                  <option value="yes">Discover</option>
+                  <option value="yes">American Express</option></select
+                ><br /><br />
+                <label for="card">Credit Card Number:</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  class="box2"
+                /><br /><br />
+                <label for="date">Expiration Date:</label><br />
+                <input
+                  type="date"
+                  id="date"
+                  name="date"
+                  class="box2"
+                /><br /><br />
+                <label for="card">Security Code:</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  class="box2"
+                /><br /><br />
+                <input class="post" type="reset" name="reset" id="reset" />
+                <input class="post" type="submit" value="Donate Now!" />
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="cfour">
+        <footer>
+          <p id="yellow">Author: Alec Rodriguez</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
