@@ -395,9 +395,13 @@ td {
 }
 
 img:hover {
-  transform: scale(1.05);
+  transform: skewx(10deg);
 }
 
 input:hover {
+  transform: scale(0.9);
+}
+
+select:hover {
   transform: scale(0.9);
 }
