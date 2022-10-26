@@ -59,6 +59,8 @@ a:visited {
 a:hover {
   background-color: #ffc845;
   color: #002554;
+  transition-property: background-color;
+  transition-duration: 0.4s;
 }
 
 .box {
@@ -390,4 +392,12 @@ td {
   grid-row-end: 5;
   grid-column-start: 1;
   grid-column-end: 4;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+input:hover {
+  transform: scale(0.9);
 }
