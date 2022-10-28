@@ -407,25 +407,42 @@ select:hover {
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
-  .background {
-    background-color: red;
-  }
-
   .button {
     border-radius: 7px;
     background-color: #407ec9;
     color: #f6f3e7;
     padding: 10px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 0.57em;
     text-align: center;
     font-weight: bold;
-    height: 20px;
+    height: 1em;
   }
 
   #header {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  #postslayout {
+    display: grid;
+    grid-template-rows: 65px 70px 1fr 100px;
+    grid-template-columns: 100px 1fr 100px;
+  }
+
+  #pcone {
+    background-color: #407ec9;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 7px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
 
   #indexlayout {
@@ -440,7 +457,7 @@ select:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     align-content: center;
     border-radius: 7px;
     grid-row-start: 1;
@@ -515,7 +532,7 @@ select:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     align-content: center;
     border-radius: 7px;
     grid-row-start: 1;
@@ -590,7 +607,7 @@ select:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     align-content: center;
     border-radius: 7px;
     grid-row-start: 1;
@@ -621,8 +638,37 @@ select:hover {
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  .background {
-    background-color: orange;
+  .button {
+    border-radius: 7px;
+    background-color: #407ec9;
+    color: #f6f3e7;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 0.6em;
+    text-align: center;
+    font-weight: bold;
+    height: 1em;
+  }
+
+  #postslayout {
+    display: grid;
+    grid-template-rows: 65px 70px 1fr 100px;
+    grid-template-columns: 100px 1fr 100px;
+  }
+
+  #pcone {
+    background-color: #407ec9;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 7px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
 
   #indexlayout {
@@ -637,7 +683,7 @@ select:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     align-content: center;
     border-radius: 7px;
     grid-row-start: 1;
@@ -710,7 +756,7 @@ select:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     align-content: center;
     border-radius: 7px;
     grid-row-start: 1;
@@ -785,7 +831,7 @@ select:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     align-content: center;
     border-radius: 7px;
     grid-row-start: 1;
@@ -816,13 +862,7 @@ select:hover {
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-  .background {
-    background-color: yellow;
-  }
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-  .background {
-    background-color: green;
-  }
 }
